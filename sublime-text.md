@@ -11,6 +11,9 @@ layout: 2017/sheet
 | `⌘ ⇧ L`     | split selection into multiple lines |
 | `⌘ ⇧ A`     | select text inside tag (repeat to expand) |
 | `Ctrl ⇧ M`  | select to curly or angle brackets (repeat to expand) |
+| `⌘ D`       | select word |
+| `⌘ F3`      | select next identical string |
+| `Alt F3`    | select all identical strings |
 {: .-shortcuts}
 
 Replace ⌘ with Ctrl on Windows and Linux.
@@ -29,7 +32,14 @@ Replace ⌘ with Ctrl on Windows and Linux.
 ### Editing
 
 | `⌘ ⇧ D` | duplicate current line/selection |
+| `⌘ x` | cut current line/selection |
+| `⌘ Enter` | uncut line/selection |
 | `⌘ ⇧ K` | delete current line/selection |
+| `⌘ kk` | delete remaining characters behind cursor |
+| `⌘ k Backspace` | delete characters before cursor |
+| `⌘ ⇧ ↓` | move current line/selection down |
+| `⌘ J` | indent selected line or block |
+| `⌘ /` | turn selection or line into comment |
 {: .-shortcuts}
 
 ### Goto
